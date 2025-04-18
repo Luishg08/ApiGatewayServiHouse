@@ -1,6 +1,7 @@
 
 services:
   apigateway:
+    build: .
     image: apigateway
     ports:
       - "8000:8000"
