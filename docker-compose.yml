@@ -1,0 +1,12 @@
+
+services:
+  apigateway:
+    image: apigateway
+    ports:
+      - "8000:8000"
+    networks:
+      - gateway-network
+
+networks:
+  gateway-network:
+    driver: bridge
