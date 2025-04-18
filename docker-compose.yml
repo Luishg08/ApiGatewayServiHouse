@@ -1,8 +1,8 @@
+version: '3.8'
 
 services:
-  apigateway:
+  api-gateway:
     build: .
-    image: apigateway
     ports:
       - "8000:8000"
     networks:
