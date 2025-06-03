@@ -10,4 +10,5 @@ services:
 
 networks:
   gateway-network:
-    driver: bridge
+    external: true
+
